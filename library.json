@@ -1,0 +1,16 @@
+{
+  "name" : "kbide-ccode",
+  "title": "C/C++ Code",
+  "keywords": "c,cpp,source code",
+  "description": "KBIDE Plugin for add C/C++ code to block",
+  "git": "https://github.com/cmmc-kbide/kbide-ccode/",
+  "author": "Comdet",
+  "email": "comdet@kbide.org",
+  "url": "https://github.com/cmmc-kbide/kbide-ccode/",
+  "version": "1.0.0",
+  "platform": ["arduino-esp32","arduino-avr","esp-idf"],
+  "category" : "Other",
+  "license": "MIT",
+  "image" : "/static/cpp.png",
+  "homepage": "https://github.com/cmmc-kbide/kbide-ccode/"
+}

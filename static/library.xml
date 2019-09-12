@@ -1,0 +1,133 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="factory_base" id="HVThD*){m!nL=VrcCHdE" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="BOTH"/>
+    <field name="NAME">block_raw1</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="}gVsxy.|xv8gIa?]_JkX">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_input" id="(gKO~O;oH^*29?ZFe/|H">
+            <field name="TEXT">int xxx = 123;</field>
+            <field name="FIELDNAME">code</field>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="xPzX3nC,DQ{(v_sb;|%#" deletable="false" movable="false">
+        <field name="TEXT">write your c code to here</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="T,w4so#GW5OJ_L7H84Yr" deletable="false" movable="false">
+        <field name="TEXT"/>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="4Z8[8hYDtelKIJ$_y*gw"/>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="]E.du6!%SjP-d:qW}lX9"/>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="^EZyh?ELnw=F[JC=SSI2">
+        <mutation colour="#5b67a5"/>
+        <field name="HUE">230</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="HVThD*){m!nL=VrcCHdE" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"/>
+    <field name="NAME">block_raw2</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="}gVsxy.|xv8gIa?]_JkX">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_input" id="(gKO~O;oH^*29?ZFe/|H">
+            <field name="TEXT">(xxx == 123)</field>
+            <field name="FIELDNAME">code</field>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="xPzX3nC,DQ{(v_sb;|%#" deletable="false" movable="false">
+        <field name="TEXT">write your c code to here</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="T,w4so#GW5OJ_L7H84Yr" deletable="false" movable="false">
+        <field name="TEXT"/>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="{9d|*,yfC.8b#0k#tDyb"/>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="^EZyh?ELnw=F[JC=SSI2">
+        <mutation colour="#5b67a5"/>
+        <field name="HUE">230</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="HVThD*){m!nL=VrcCHdE" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="BOTH"/>
+    <field name="NAME">block_raw1_ext</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="}gVsxy.|xv8gIa?]_JkX">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_dropdown" id="R+Kx_E7y82Jt8QWh?S)~">
+            <mutation options="[&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;]"/>
+            <field name="FIELDNAME">NAME</field>
+            <field name="USER0">include (EXTINC)</field>
+            <field name="CPU0">EXTINC</field>
+            <field name="USER1">variable (VARIABLE)</field>
+            <field name="CPU1">VARIABLE</field>
+            <field name="USER2">function (FUNCTION)</field>
+            <field name="CPU2">FUNCTION</field>
+            <field name="USER3">setup (SETUP_CODE)</field>
+            <field name="CPU3">SETUP_CODE</field>
+            <field name="USER4">loop (LOOP_EXT_CODE)</field>
+            <field name="CPU4">LOOP_EXT_CODE</field>
+          </block>
+        </statement>
+        <next>
+          <block type="input_dummy" id="fXoP$U.By50Kqi/o7YKJ">
+            <field name="ALIGN">LEFT</field>
+            <statement name="FIELDS">
+              <block type="field_input" id="RlA=ArO#:zlCyBE2PkdM">
+                <field name="TEXT">#include "stdlib.h"</field>
+                <field name="FIELDNAME">code</field>
+              </block>
+            </statement>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="xPzX3nC,DQ{(v_sb;|%#" deletable="false" movable="false">
+        <field name="TEXT">write your c code to here</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="T,w4so#GW5OJ_L7H84Yr" deletable="false" movable="false">
+        <field name="TEXT"/>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="leL7J?x?x?,)m2+XdFC0"/>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="?M!C26I%],Y+2S-*VQGc"/>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="^EZyh?ELnw=F[JC=SSI2">
+        <mutation colour="#5b67a5"/>
+        <field name="HUE">230</field>
+      </block>
+    </value>
+  </block></xml>
